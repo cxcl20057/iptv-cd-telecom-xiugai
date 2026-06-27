@@ -473,4 +473,8 @@ http://192.168.100.1:4022/udp/239.94.2.53:5140
 #KODIPROP:inputstream=inputstream.ffmpegdirect
 #EXTINF:-1 tvg-name="Channel[V]" tvg-logo="https://iptv.zsdc.eu.org/logo/ChannelV.png" group-title="港澳",Channel[V]
 http://192.168.100.1:4022/udp/239.94.2.55:5140
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/广元.png" tvg-id="广元综合" tvg-name="广元综合" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228702/753477317.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="四川",广元综合
+rtp://239.94.0.167:5140
+#EXTINF:-1 tvg-logo="https://iptv.zsdc.eu.org/logo/广元.png" tvg-id="广元文化生活" tvg-name="广元文化生活" catchup="default" catchup-days="5" catchup-source="rtsp://182.139.235.40/PLTV/88888896/224/3221228702/753477317.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" group-title="四川",广元文化生活
+rtp://239.94.0.179:5140
     
